@@ -57,7 +57,7 @@ export default function Rundown() {
         {/* Kotak Rundown dengan Carousel */}
         <div className="relative bg-gradient-to-br from-[#3d1f1f] via-[#2d1515] to-[#1d0d0d] rounded-lg overflow-hidden shadow-2xl border-4 border-white p-3 sm:p-4 md:p-6">
           {/* Carousel Container */}
-          <div className="relative w-full h-110 md:h-190 lg:h-200 2xl:h-300 bg-[#2d1515] rounded-md overflow-hidden">
+          <div className="relative w-full h-110 md:h-190 lg:h-200 2xl:h-300 bg-gradient-to-br from-[#3d1f1f] via-[#2d1515] to-[#1d0d0d] rounded-md overflow-hidden">
             {/* Slide 1 */}
             <div className="carousel-slide absolute inset-0 w-full h-full">
               <Image
@@ -112,7 +112,7 @@ export default function Rundown() {
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={3}
-              stroke="white"
+              stroke="#CC9088"
               className="w-10 h-10 md:w-18 md:h-18 lg:w-28 lg:h-28 2xl:w-36 2xl:h-36"
             >
               <path
@@ -135,7 +135,7 @@ export default function Rundown() {
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={3}
-              stroke="white"
+              stroke="#CC9088"
               className="w-10 h-10 md:w-18 md:h-18 lg:w-28 lg:h-28 2xl:w-36 2xl:h-36"
             >
               <path
